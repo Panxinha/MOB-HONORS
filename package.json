@@ -1,1 +1,6 @@
-HoLA
+{
+  "dependencies": {
+    "react-native-paper": "4.9.2",
+    "@expo/vector-icons": "^15.0.3"
+  }
+}
