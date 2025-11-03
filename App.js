@@ -65,7 +65,7 @@ function HomeScreen({ navigation, route }) {
       <StatusBar translucent={false} />
       <Animated.View style={[styles.container, { opacity: fade }]}>
         <View style={styles.header}>
-          <Image source={require('./assets/dumbbell.png')} style={styles.headerImage} />
+          <Image source={require('./assets/icon.png')} style={styles.headerImage} />
           <View style={{ flex: 1 }}>
             <Text style={styles.headerTitle}>Mis ejercicios</Text>
             <Text style={styles.headerCaption}>{greet} Define, registra y comparte tus rutinas.</Text>
