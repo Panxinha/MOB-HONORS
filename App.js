@@ -1,9 +1,5 @@
-// Expo SportApp – buscador ok + reps desde lista (sin bloque extra antes del gráfico)
-import React, { useMemo, useRef, useState, useEffect, useContext, createContext } from 'react';
-import {
-  View, Text, Image, TouchableOpacity, TextInput, Share, Animated, StyleSheet,
-  useColorScheme, Switch, StatusBar, Alert, Dimensions, ScrollView
-} from 'react-native';
+import { useMemo, useRef, useState, useEffect, useContext, createContext } from 'react-native';
+import { View, Text, Image, TouchableOpacity, TextInput, Share, Animated, StyleSheet, useColorScheme, Switch, StatusBar, Alert, Dimensions, ScrollView} from 'react-native';
 import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import * as ImagePicker from 'expo-image-picker';
